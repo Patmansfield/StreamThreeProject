@@ -46,6 +46,10 @@ INSTALLED_APPS = [
     'accounts',
     'blog',
     'disqus',
+    'magazines',
+    'paypal_store',
+    'products',
+    'paypal.standard.ipn',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -142,3 +146,8 @@ STATICFILES_DIRS = (
 
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_nbWefqblVg8HnYsFmpcld8qj')
 STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_N35jP51CRqW4FKBMa8MAL1A4')
+
+# Paypal environment variables
+SITE_URL = 'http://127.0.0.1:8000'
+PAYPAL_NOTIFY_URL = 'https://cd8e2f31.ngrok.io/a-very-hard-to-guess-url/'
+PAYPAL_RECEIVER_EMAIL = 'pat.mansfield20@gmail.com'
