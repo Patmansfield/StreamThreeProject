@@ -32,6 +32,8 @@
             </div>
             <div class="collapse navbar-collapse" id="navcol-1">
                 <ul class="nav navbar-nav navbar-right">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/blog">Blog</a></li>
                 {% if user.is_authenticated %}
                     <li><a href="{% url 'profile' %}">Profile</a></li>
                     <li><a href="{% url 'logout' %}">Log Out</a></li>
@@ -81,13 +83,13 @@
                     {% endfor %}
                 </div>
             </div>
-    {% endif %}
+        {% endif %}
 
 
         {% block content %}
         {% endblock %}
 
-    <hr>
+        <hr>
     </div>
 
     <div class="footer-dark">
@@ -106,7 +108,7 @@
             <p class="copyright">News Revolution © 2017</p>
         </div>
     </footer>
-</div>
+    </div>
 
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/bootstrap/js/bootstrap.min.js"></script>

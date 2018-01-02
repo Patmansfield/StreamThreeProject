@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="article-list">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center"><strong>Here’s what people were Googling in 2017</strong></h2>
+        </div>
+        <br>
+        <div class="row articles">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 item"><img class="img-responsive" src="/static/img/gnews.jpg" />
+                <br>
+                <p class="description text-justify">There are few metrics in the world that offer as much insight into our society as Google’s annual “Year in Search.”
+                    More than any of the other year-end download and streaming roundups, Google’s offers a clear snapshot of the things that captured our imaginations and
+                    baffled us during what felt like a particularly turbulent year. Here in the U.S., the top overall searches cover a pretty wide range of the human experience,
+                    running the gamut from natural phenomenon, to sports, to human tragedy, to the sexual misconduct allegations that have been echoing across a wide range of industries
+                    in recent months. Hurricanes Irma and Harvey took the first and eighth spots in the Top 10, and August’s much-hyped solar eclipse came in at No. 7. <br><br>The October shooting
+                    in Las Vegas that ended in 59 deaths was the No. 5 search. Musician Tom Petty was both the top search in celebrity deaths and No. 3 overall, while former Patriots tight
+                    end Aaron Hernandez, who took his own life in a prison cell in April, was No. 9. The Super Bowl and the Mayweather/McGregor fight landed at four and five, respectively,
+                    and the fidget spinners that briefly caught our short attention spans this year hit No. 10. Former NBC anchor Matt Lauer hit No. 2 overall and was the top person search
+                    in general. <br><br>A number of other subjects of sexual misconduct allegations also made the Top 10 people list, including Harvey Weinstein, Kevin Spacey and Bill O’Reilly. Apple
+                    had the strongest showing in Consumer Tech, with the iPhone 8, iPhone X, iPhone 8 Plus and Apple Watch 3 scoring spots one, two, six and nine. Nintendo and Samsung also had
+                    strong showings with the Nintendo Switch, Samsung Galaxy S8, Super NES Classic and Samsung Galaxy Note 8 making the Top 10 in that category. People were also looking for ways
+                    to make their own eclipse glasses, fidget spinners and slime. More people wanted to know what DACA (Deferred Action for Childhood Arrivals) was than anything else. Bitcoin also
+                    had a strong showing at No. 2.<br>
+                    <br>Posted Dec 13, 2017 by Brian Heater (@bheater) sourced from Techcrunch.com
+                </p>
+                <br>
+                <div id="disqus_thread"></div>
+                    <script>
+
+                        var disqus_shortname = 'news-revolution';
+                        var disqus_title = "The lastest and hottest Tech headlines!";
+
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://news-revolution.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

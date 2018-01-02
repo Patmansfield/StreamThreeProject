@@ -1,0 +1,44 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="article-list">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center"><strong>Uber accused of espionage, bribery and hacking by former Employee!</strong></h2>
+        </div>
+        <br>
+        <div class="row articles">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 item"><img class="img-responsive center-block" src="/static/img/uber.png" />
+                <br>
+                <p class="description text-justify">The $1.86 billion legal battle between ride-hailing giant Uber and Alphabet’s self-driving unit Waymo reached a
+                    pivotal moment today as the judge in the case released a damning letter based on the account of a former Uber employee. The letter alleges that a
+                    special division within Uber was responsible for acts of corporate espionage, the theft of trade secrets, the bribery of foreign officials and various
+                    means of unlawful surveillance. The “Jacobs letter” was written by the attorney for Richard Jacobs, who previously worked as Uber’s manager of global
+                    intelligence before being fired in April. The highly detailed account brings about accusations of systematic illegal activity inside Uber’s Strategic
+                    Services Group (SSG) which allegedly sought to surface other companies’ trade secrets through eavesdropping and data collection. The letter alleges that
+                    some of the information gathered was relayed to then-CEO Travis Kalanick. <br><br>In a statement to TechCrunch, an Uber spokesperson said, “While we haven’t
+                    substantiated all the claims in this letter—and, importantly, any related to Waymo—our new leadership has made clear that going forward we will compete
+                    honestly and fairly, on the strength of our ideas and technology.” The 37-page letter details the actions of the SSG and the Marketplace Analytics (MA) group
+                    which it claims “exists expressly for the purpose of acquiring trade secrets, codebase, and competitive intelligence… from major ride-sharing competitors globally.”
+                    The Jacobs letter also alleges that the group used ephemeral encrypted chat apps and “non-attributable” devices to keep evidence of their actions hidden.<br>
+                    <br>Posted Dec 15, 2017 by Lucas Matney (@lucasmtny) sourced from Techcrunch.com
+                </p>
+                <br>
+                <div id="disqus_thread"></div>
+                    <script>
+
+                        var disqus_shortname = 'news-revolution';
+                        var disqus_title = "The lastest and hottest Tech headlines!";
+
+                    (function() { // DON'T EDIT BELOW THIS LINE
+                    var d = document, s = d.createElement('script');
+                    s.src = 'https://news-revolution.disqus.com/embed.js';
+                    s.setAttribute('data-timestamp', +new Date());
+                    (d.head || d.body).appendChild(s);
+                    })();
+                    </script>
+                    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

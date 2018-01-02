@@ -14,12 +14,11 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 from django.conf.urls import url, include
-from django.conf import settings
 from django.contrib import admin
 from home import views
-
 from accounts.views import register, profile, login, logout, \
     cancel_subscription, subscriptions_webhook
+
 
 
 urlpatterns = [
@@ -38,4 +37,12 @@ urlpatterns = [
         name='cancel_subscription'),
     url(r'^subscriptions_webhook/$', subscriptions_webhook,
         name='subscriptions_webhook'),
+
+# Blog URLs
+    url(r'^blog/', include('blog.urls')),
+
+# Atricles
+    url(r'^articleone/', views.articleone),
+    url(r'^articletwo/', views.articletwo),
+    url(r'^articlethree/', views.articlethree),
 ]

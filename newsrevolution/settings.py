@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'newsrevolution',
     'home',
     'accounts',
+    'blog',
+    'disqus',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
