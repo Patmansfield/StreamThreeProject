@@ -50,6 +50,11 @@ INSTALLED_APPS = [
     'paypal_store',
     'products',
     'paypal.standard.ipn',
+    'polls',
+    'threads',
+    'tinymce',
+    'rest_framework',
+    'emoticons',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
@@ -151,3 +156,6 @@ STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_N35jP51CRqW4FKBMa8MAL1A4')
 SITE_URL = 'http://127.0.0.1:8000'
 PAYPAL_NOTIFY_URL = 'https://cd8e2f31.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'pat.mansfield20@gmail.com'
+
+DISQUS_WEBSITE_SHORTNAME = 'news-revolution'
+SITE_ID = 1

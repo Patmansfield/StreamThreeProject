@@ -62,7 +62,6 @@ div.iphone-mockup {
   border:1px solid #444;
   background-color:#aaa;
   overflow:hidden;
-  background:url(../../static/img/screen-content-iphone-6.jpg);
   background-size:cover;
   background-position:center;
 }
@@ -374,6 +373,17 @@ button.css3button {
   background-color: #D3D3D3;
 }
 
+.thread_header {
+  background-color: #CD4B2F;
+}
 
+.largersize {
+  height: 100%;
+}
 
+@media (min-width:768px) {
+  .smallersize {
+    height: 375px;
+  }
+}
 

@@ -1,0 +1,42 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$EI3zMjwDaNmu$+Y7S3H/vFweZk/WaGF4OO7WN/8GJ++BaUjoUJol3YX8=",
+        "last_login": "2017-11-22T22:48:09.601Z",
+        "is_superuser": true,
+        "username": "pat.mansfield@hotmail.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "pat.mansfield@hotmail.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2017-11-13T16:11:06.889Z",
+        "stripe_id": "",
+        "subscription_end": "2017-11-13T16:11:06.889Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$36000$B3VIIdjX26Kw$iJ1MpXAb9mG3wRRYtYSSW0QsOPob6r9n7mB9u46xUus=",
+        "last_login": "2017-11-22T22:22:22.426Z",
+        "is_superuser": false,
+        "username": "sean@wild.com",
+        "first_name": "",
+        "last_name": "",
+        "email": "sean@wild.com",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2017-11-22T22:22:18.630Z",
+        "stripe_id": "cus_Bok5gB4jlXUHbw",
+        "subscription_end": "2017-12-20T22:22:22.029Z",
+        "groups": [],
+        "user_permissions": []
+    }
+}
+]

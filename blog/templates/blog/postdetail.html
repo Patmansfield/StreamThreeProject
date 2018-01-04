@@ -1,7 +1,8 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div>
+    <div class="container">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 item">
         <div>
             {{ post.published_date }}
         </div>
@@ -21,6 +22,11 @@
         {% load disqus_tags %}
         {% set_disqus_title post.title %}
         {% disqus_show_comments %}
-
+        <script type="text/javascript">
+            var disqus_config = function () {
+                this.language = "en";
+        };
+        </script>
+        </div>
     </div>
 {% endblock content %}
