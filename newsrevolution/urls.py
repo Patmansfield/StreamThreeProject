@@ -70,5 +70,5 @@ urlpatterns = [
     url(r'^post/update/(?P<pk>[\d+]+)/$',
         thread_api_views.PostUpdateView.as_view(), name="update-poll"),
     url(r'^post/delete/(?P<pk>[\d]+)/$',
-        thread_api_views.PostDeleteView.as_view(), name='delete-poll')
+        thread_api_views.PostDeleteView.as_view(), name='delete-poll'),
 ]

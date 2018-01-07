@@ -2,135 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b2b921a-64f7-424d-80aa-7b80b94ba729" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/blog/templates/blog/blogposts.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/api_views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/polls/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/jquery.tinymce.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/langs/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/license.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/advlist/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/anchor/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/autolink/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/autoresize/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/autosave/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/bbcode/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/charmap/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/code/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/codesample/css/prism.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/codesample/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/colorpicker/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/contextmenu/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/directionality/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-cool.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-cry.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-embarassed.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-foot-in-mouth.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-frown.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-innocent.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-kiss.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-laughing.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-money-mouth.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-sealed.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-smile.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-surprised.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-tongue-out.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-undecided.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-wink.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/img/smiley-yell.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/emoticons/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/example/dialog.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/example/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/example_dependency/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/fullpage/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/fullscreen/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/hr/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/image/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/imagetools/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/importcss/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/insertdatetime/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/layer/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/legacyoutput/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/link/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/lists/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/nonbreaking/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/noneditable/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/pagebreak/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/paste/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/preview/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/print/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/save/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/searchreplace/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/spellchecker/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/tabfocus/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/table/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/template/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/textcolor/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/textpattern/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/visualblocks/css/visualblocks.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/visualblocks/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/visualchars/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/plugins/wordcount/plugin.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/content.inline.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/content.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce-small.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce-small.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce-small.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce-small.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce.eot" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce.svg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce.ttf" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/fonts/tinymce.woff" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/img/anchor.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/img/loader.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/img/object.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/img/trans.gif" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/skin.ie7.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/skins/lightgray/skin.min.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/themes/modern/theme.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/static/js/tinymce/tinymce.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/comment_details.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/forum.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/post.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/post_form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/thread.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/thread_form.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/thread_item.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/templates/forum/threads.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/admin.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/api_views.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/fixtures/subjects.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/fixtures/user.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/forms.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/migrations/0001_initial.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/migrations/0002_auto_20160309_1113.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/migrations/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/models.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/serializers.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/templatetags/__init__.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/templatetags/threads_extras.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/tests.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/threads/views.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/env.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/templates/flatpages/default.html" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/blog/forms.py" afterPath="$PROJECT_DIR$/blog/forms.py" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/base.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/blogtests.html" afterPath="$PROJECT_DIR$/blog/templates/blog/blogtests.html" />
-      <change beforePath="$PROJECT_DIR$/blog/templates/blog/postdetail.html" afterPath="$PROJECT_DIR$/blog/templates/blog/postdetail.html" />
-      <change beforePath="$PROJECT_DIR$/blog/urls.py" afterPath="$PROJECT_DIR$/blog/urls.py" />
-      <change beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change beforePath="$PROJECT_DIR$/newsrevolution/settings.py" afterPath="$PROJECT_DIR$/newsrevolution/settings.py" />
       <change beforePath="$PROJECT_DIR$/newsrevolution/urls.py" afterPath="$PROJECT_DIR$/newsrevolution/urls.py" />
-      <change beforePath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
-      <change beforePath="$PROJECT_DIR$/static/css/user.css" afterPath="$PROJECT_DIR$/static/css/user.css" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change beforePath="$PROJECT_DIR$/static/img/carouselone.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/static/img/carouseltwo.png" afterPath="" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change beforePath="$PROJECT_DIR$/templates/products/products.html" afterPath="$PROJECT_DIR$/templates/products/products.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -141,73 +21,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/forum/post.html">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="24" lean-forward="false" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            <state relative-caret-position="356">
+              <caret line="42" column="69" lean-forward="true" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/forum/post_form.html">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/flatpages/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+            <state relative-caret-position="135">
+              <caret line="9" column="140" lean-forward="false" selection-start-line="9" selection-start-column="140" selection-end-line="9" selection-end-column="140" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forum.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/forum/forum.html">
+      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsrevolution/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thread.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/forum/thread.html">
+      <file leaf-file-name="gnews.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/img/gnews.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="revolution.jpg" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/img/revolution.jpg">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/img/facebook.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cash.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/img/cash.png">
+          <provider selected="true" editor-type-id="images">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsrevolution/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+            <state relative-caret-position="1054">
+              <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="e#0#41#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/bootstrap/js/bootstrap.min.js">
+      <file leaf-file-name="articleone.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/article/articleone.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="34" lean-forward="false" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="10" column="118175" lean-forward="false" selection-start-line="10" selection-start-column="118172" selection-end-line="10" selection-end-column="118175" />
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="44" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -217,27 +105,7 @@
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="41" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="thread_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/forum/thread_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="596">
-              <caret line="44" column="46" lean-forward="false" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="blogposts.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/templates/blog/blogposts.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="42" />
+              <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -306,12 +174,10 @@
         <option value="$PROJECT_DIR$/static/bootstrap/css/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/base.html" />
-        <option value="$PROJECT_DIR$/newsrevolution/urls.py" />
         <option value="$PROJECT_DIR$/templates/forum/forum.html" />
         <option value="$PROJECT_DIR$/templates/products/products.html" />
         <option value="$PROJECT_DIR$/static/css/user.css" />
         <option value="$PROJECT_DIR$/blog/forms.py" />
-        <option value="$PROJECT_DIR$/newsrevolution/settings.py" />
         <option value="$PROJECT_DIR$/blog/templates/blog/postdetail.html" />
         <option value="$PROJECT_DIR$/blog/templates/blog/blogtests.html" />
         <option value="$PROJECT_DIR$/blog/urls.py" />
@@ -320,6 +186,11 @@
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/templates/forum/thread.html" />
+        <option value="$PROJECT_DIR$/env.py" />
+        <option value="$PROJECT_DIR$/newsrevolution/settings.py" />
+        <option value="$PROJECT_DIR$/newsrevolution/urls.py" />
+        <option value="$PROJECT_DIR$/templates/default.html" />
+        <option value="$PROJECT_DIR$/templates/flatpages/default.html" />
         <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
@@ -385,12 +256,18 @@
             <path>
               <item name="Stream_Three_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream_Three_Project" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="newsrevolution" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stream_Three_Project" type="b2602c69:ProjectViewProjectNode" />
               <item name="Stream_Three_Project" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Stream_Three_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Stream_Three_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="flatpages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Stream_Three_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -420,11 +297,11 @@
       <recent name="$PROJECT_DIR$/home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates/flatpages" />
       <recent name="$PROJECT_DIR$/blog/templates/blog" />
       <recent name="$PROJECT_DIR$/blog/templates" />
       <recent name="$PROJECT_DIR$/templates/article" />
       <recent name="$PROJECT_DIR$/templates" />
-      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -483,13 +360,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-2559" y="23" width="1257" height="1008" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2979424" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -517,97 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/paypal_store/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/tests.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/paypal_store/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#52#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/products/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/polls/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/tinymce/langs/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/templates/blog/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsrevolution/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="763">
-          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#41#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/threads/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/threads/fixtures/user.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -654,14 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="380" column="15" lean-forward="true" selection-start-line="380" selection-start-column="15" selection-end-line="380" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newsrevolution/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="161" column="0" lean-forward="true" selection-start-line="161" selection-start-column="0" selection-end-line="161" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -777,16 +556,8 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <element signature="e#0#32#0" expanded="true" />
+            <element signature="e#0#32#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/article/articleone.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +574,7 @@
         <state relative-caret-position="285">
           <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding>
-            <element signature="e#0#54#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -883,7 +654,7 @@
     <entry file="file://$PROJECT_DIR$/templates/forum/post_form.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
+          <caret line="25" column="14" lean-forward="false" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -891,7 +662,7 @@
     <entry file="file://$PROJECT_DIR$/templates/forum/forum.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+          <caret line="29" column="14" lean-forward="false" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -899,7 +670,7 @@
     <entry file="file://$PROJECT_DIR$/templates/forum/thread.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="6" column="38" lean-forward="true" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
+          <caret line="6" column="38" lean-forward="false" selection-start-line="6" selection-start-column="38" selection-end-line="6" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
@@ -922,18 +693,105 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/env.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsrevolution/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1542">
+          <caret line="168" column="11" lean-forward="false" selection-start-line="168" selection-start-column="11" selection-end-line="168" selection-end-column="11" />
+          <folding>
+            <element signature="e#318#327#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="40" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="41" />
+          <caret line="11" column="40" lean-forward="false" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/article/articleone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="44" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/gnews.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/revolution.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/facebook.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/carouseltwo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/carouselone.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/cash.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/newsrevoLogo.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/flatpages/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="140" lean-forward="false" selection-start-line="9" selection-start-column="140" selection-end-line="9" selection-end-column="140" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsrevolution/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsrevolution/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="7" lean-forward="true" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="356">
+          <caret line="42" column="69" lean-forward="true" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
           <folding />
         </state>
       </provider>

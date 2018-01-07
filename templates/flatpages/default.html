@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="article-list">
+    <div class="container">
+        <div class="intro">
+            <h2 class="text-center">{{ flatpage.title }}</h2>
+        </div>
+        <br>
+        <div class="row articles">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 item"><img class="img-responsive" src="/static/img/revobanner.jpg"/>
+                <br>
+                <p class="description text-justify">
+                    {{ flatpage.content }}
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
