@@ -12,7 +12,6 @@ from polls import api_views
 from threads import api_views as thread_api_views
 
 
-
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.get_index),
@@ -33,7 +32,7 @@ urlpatterns = [
     # Blog URLs
     url(r'^blog/', include('blog.urls')),
 
-    # Atricles
+    # Articles
     url(r'^articleone/', views.articleone),
     url(r'^articletwo/', views.articletwo),
     url(r'^articlethree/', views.articlethree),

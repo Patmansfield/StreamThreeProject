@@ -14,3 +14,4 @@ class SubjectPageTest(TestCase):
         subject_page_template_output = render_to_response("forum/forum.html",
                                                           {'subjects': Subject.objects.all()}).content
         self.assertEquals(subject_page.content, subject_page_template_output)
+

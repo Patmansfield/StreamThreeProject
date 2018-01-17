@@ -3,6 +3,7 @@ from .models import User
 from .forms import UserRegistrationForm
 from django import forms
 from django.conf import settings
+from django.core.urlresolvers import resolve
 
 
 class CustomUserTest(TestCase):
@@ -92,4 +93,8 @@ class CustomUserTest(TestCase):
         self.assertRaisesMessage(forms.ValidationError,
                                  "Passwords do not match",
                                  form.full_clean())
+
+    def test_login_resolves(self):
+        resolver = resolve('/login/')
+        self.assertEqual(resolver.view_name, 'login')
 
