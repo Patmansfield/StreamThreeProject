@@ -37,7 +37,6 @@ INSTALLED_APPS = [
     'tinymce',
     'rest_framework',
     'emoticons',
-    'settings',
 ]
 
 AUTH_USER_MODEL = 'accounts.User'
