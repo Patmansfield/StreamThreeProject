@@ -1,7 +1,4 @@
 from base import *
-import os
-import dj_database_url
-from django.conf import settings
 
 DEBUG = False
 
@@ -14,6 +11,9 @@ PAYPAL_NOTIFY_URL = 'https://cd8e2f31.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'pat.mansfield20@gmail.com'
 
 SITE_URL = 'https://news-revolution.herokuapp.com'
+
+DISQUS_WEBSITE_SHORTNAME = 'news-revolution'
+SITE_ID = 2
 
 # Log DEBUG information to the console
 LOGGING = {
