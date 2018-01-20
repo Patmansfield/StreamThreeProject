@@ -14,7 +14,6 @@ PAYPAL_NOTIFY_URL = 'https://cd8e2f31.ngrok.io/a-very-hard-to-guess-url/'
 PAYPAL_RECEIVER_EMAIL = 'pat.mansfield20@gmail.com'
 
 SITE_URL = 'https://news-revolution.herokuapp.com'
-ALLOWED_HOSTS.append('news-revolution.herokuapp.com')
 
 # Log DEBUG information to the console
 LOGGING = {
