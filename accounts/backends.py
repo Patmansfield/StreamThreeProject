@@ -1,4 +1,4 @@
-from models import User
+from accounts.models import User
 
 class EmailAuth(object):
 
