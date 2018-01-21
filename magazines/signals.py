@@ -1,5 +1,5 @@
 import arrow
-import models
+from magazines import models
 
 
 def subscription_created(sender, **kwargs):
