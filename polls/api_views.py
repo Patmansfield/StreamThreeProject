@@ -1,7 +1,7 @@
 from rest_framework import generics, status
 from rest_framework.response import Response
 from polls.models import Poll, Vote, PollSubject
-from serializers import PollSerializer, VoteSerializer
+from polls.serializers import PollSerializer, VoteSerializer
 from threads.models import Thread
 
 
