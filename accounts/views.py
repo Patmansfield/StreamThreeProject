@@ -45,7 +45,7 @@ def register(request):
                 else:
                     messages.error(request, "We were unable to take payment from the card provided")
 
-            except stripe.error.CardError, e:
+            except stripe.error.CardError as e:
                 messages.error(request, "Your card was declined!")
     else:
         today = datetime.date.today()
