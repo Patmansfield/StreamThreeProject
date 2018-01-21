@@ -21,7 +21,7 @@ class Purchase(models.Model):
 
 
 # To avoid an "apps not loaded" error the import from signals is placed at the bottom of file
-from signals import subscription_created, subscription_was_cancelled
+from magazines.signals import subscription_created, subscription_was_cancelled
 from paypal.standard.ipn.signals import valid_ipn_received
 
 valid_ipn_received.connect(subscription_created)
