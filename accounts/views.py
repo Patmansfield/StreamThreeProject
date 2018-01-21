@@ -62,7 +62,7 @@ def cancel_subscription(request):
         customer = stripe.Customer.retrieve(request.user.stripe_id)
 
         customer.cancel_subscription(at_period_end=True)
-    except Exception, e:
+    except Exception as e:
         messages.error(request, e)
 
     return redirect('profile')
@@ -87,7 +87,7 @@ def subscriptions_webhook(request):
             user.subscription_end = arrow.now().replace(weeks=+4).datetime  # add 4 weeks from now
             user.save()
 
-    except stripe.InvalidRequestError, e:
+    except stripe.InvalidRequestError as e:
         return HttpResponse(status=404)
 
     return HttpResponse(status=200)
