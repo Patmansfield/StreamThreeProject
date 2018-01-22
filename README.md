@@ -55,7 +55,7 @@ a online store to purchase subscriptions and News Revolution merchandise.
  
  1. First step is to clone the project from GitHub - <pre> git clone https://github.com/Patmansfield/StreamThreeProject.git
  2. Once you have your virtual environment up and running the carry out the required packages installation - <pre> pip install -r requirements.txt
- 3. From the terminal initiate the local server - <pre> python manage.py runserver
+ 3. From the terminal initiate the local server - <pre> python manage.py runserver --settings newsrevolution.settings.dev
  4. To view the application navigate in the browser to - <pre> localhost:8000
     
  ### Testing:
@@ -76,7 +76,7 @@ a online store to purchase subscriptions and News Revolution merchandise.
  ### Deployment:
   
  I carried out the deployment by utilising the online hosting Platform Heroku.  After committing the code to the GitHub repository I then
- connected it to the Heroku app. It can be viewed at the following hyperlink (www.google.ie).
+ connected it to the Heroku app. It can be viewed at the following hyperlink (https://news-revolution.herokuapp.com/).
  
  
     
