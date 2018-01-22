@@ -76,7 +76,7 @@ a online store to purchase subscriptions and News Revolution merchandise.
  ### Deployment:
   
  I carried out the deployment by utilising the online hosting Platform Heroku.  After committing the code to the GitHub repository I then
- connected it to the Heroku app. It can be viewed at the following hyperlink (https://news-revolution.herokuapp.com/).
+ connected it to the Heroku app. It can be viewed at the following hyperlink [Stream Three Project](https://news-revolution.herokuapp.com/).
  
  
     
