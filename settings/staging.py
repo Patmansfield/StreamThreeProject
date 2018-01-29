@@ -3,7 +3,6 @@ from settings.base import *
 DEBUG = False
 
 STRIPE_PUBLISHABLE = os.getenv('STRIPE_PUBLISHABLE', 'pk_test_56yH3vaxIwxp9Cuq9XlaeKFL')
-STRIPE_SECRET = os.getenv('STRIPE_SECRET', 'sk_test_v1z0pl5hTyLDOHdQwFLgJJN9')
 
 # Paypal environment variables
 SITE_URL = 'https://news-revolution.herokuapp.com'
