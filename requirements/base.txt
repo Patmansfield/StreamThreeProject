@@ -6,7 +6,7 @@ certifi==2017.11.5
 chardet==3.0.4
 disqus==0.0.4
 dj-database-url==0.4.2
-Django==1.11.4
+Django==1.11.23
 django-disqus==0.5
 django-emoticons==1.2
 django-forms-bootstrap==3.1.0
